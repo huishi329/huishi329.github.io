@@ -1,12 +1,6 @@
 import dynamic from "next/dynamic";
-import Link from "next/link";
-import { Swiper, SwiperSlide } from "swiper/react";
 import Resume from "../src/components/Resume";
 import Layout from "../src/layouts/Layout";
-import {
-  servicesSliderProps,
-  testimonialsSliderProps,
-} from "../src/sliderProps";
 const PortfolioIsotope = dynamic(
   () => import("../src/components/PortfolioIsotope"),
   {
