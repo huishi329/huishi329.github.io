@@ -3,54 +3,48 @@ import { useState } from "react";
 const educationData = [
   {
     id: 1,
-    title: "Backend Programming",
-    academy: "CoderHouse Course",
-    dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    startYear: "2014",
-    endYear: "2016",
+    title: "Software Engineering",
+    academy: "App Academy",
+    dec: "1000+ hour immersive full-stack web development intensive coding bootcamp, with <5% acceptance rate.",
+    startYear: "Aug 2022",
+    endYear: "Jan 2023",
   },
   {
     id: 2,
-    title: "Faculty of Design",
-    academy: "Lviv National Academy of Arts",
-    dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    startYear: "2012",
-    endYear: "2014",
+    title: "MEd Adult Learning and Education",
+    academy: "University of British Columbia",
+    dec: "I learned that adults need reasons to take action. I reason with myself every day to keep motivated.",
+    startYear: "Sep 2019",
+    endYear: "Apr 2021",
   },
   {
     id: 3,
-    title: "High School",
-    academy: "IT Future",
-    dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    startYear: "2010",
-    endYear: "2012",
+    title: "BA Human Resources Management",
+    academy: "Guangdong University of Foreign Studies",
+    dec: "I learned that a people-centered approach is the best way to get your feet into any field.",
+    startYear: "Sep 2013",
+    endYear: "May 2017",
   },
 ];
 
 const experienceData = [
   {
     id: 1,
-    title: "UI Head & Manager",
-    company: "Soft Tech Inc.",
-    dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    startYear: "2020",
-    endYear: false,
+    title: "Center for Accessibility - Exam Coordinator",
+    company: "University of British Columbia",
+    decs: ["Onboarded and managed 80 invigilators, which agilely made the post-pandemic transition from 100% online to hybrid work model in 2 months.",
+      "Utilized and maintained thousands of student and exam information in the database,  which informed the center of the best practice of student service and reduced the chance of human errors."],
+    startYear: "Jan 2021",
+    endYear: "Aug 2022",
   },
   {
     id: 2,
-    title: "UI / UX Specialist",
-    company: "Kana Design Studio",
-    dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    startYear: "2018",
-    endYear: "2020",
-  },
-  {
-    id: 3,
-    title: "Plugins Developer",
-    company: "Fiverr.com",
-    dec: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    startYear: "2016",
-    endYear: "2018",
+    title: "Sales and Marketing Specialist",
+    company: "China Southern Airlines",
+    decs: ["Undertook market analyses by using Sabre database, which informed the decision of setting prices against competitors.",
+      "Identified target customers and organized promotion campaigns with third party vendors to increase the exposure of products and thus boosted sales by 10%."],
+    startYear: "Jul 2017",
+    endYear: "Jul 2019",
   },
 ];
 
@@ -98,15 +92,13 @@ const Resume = () => {
                 {educationData.map((education, i) => (
                   <div
                     key={education.id}
-                    className={`history-item lui-collapse-item scroll-animate ${
-                      educationToggle === education.id ? "opened" : ""
-                    }`}
+                    className={`history-item lui-collapse-item scroll-animate ${educationToggle === education.id ? "opened" : ""
+                      }`}
                     data-animate="active"
                   >
                     <h6
-                      className={`name lui-collapse-btn ${
-                        educationToggle == education.id ? "active" : ""
-                      }`}
+                      className={`name lui-collapse-btn ${educationToggle == education.id ? "active" : ""
+                        }`}
                       onClick={() =>
                         setEducationToggle(
                           educationToggle == education.id ? null : education.id
@@ -145,16 +137,14 @@ const Resume = () => {
               <div className="history-items">
                 {experienceData.map((experience) => (
                   <div
-                    className={`history-item lui-collapse-item scroll-animate ${
-                      experience.id == experienceToggle ? "opened" : ""
-                    }`}
+                    className={`history-item lui-collapse-item scroll-animate ${experience.id == experienceToggle ? "opened" : ""
+                      }`}
                     data-animate="active"
                     key={experience.id}
                   >
                     <h6
-                      className={`name lui-collapse-btn ${
-                        experienceToggle == experience.id ? " active" : ""
-                      }`}
+                      className={`name lui-collapse-btn ${experienceToggle == experience.id ? " active" : ""
+                        }`}
                       onClick={() => setExperienceToggle(experience.id)}
                     >
                       <span> {experience.title} </span>
@@ -176,7 +166,7 @@ const Resume = () => {
                       </div>
                       <div className="text">
                         <div>
-                          <p>{experience.dec}</p>
+                          {experience.decs.map(dec => (<p>- {dec}</p>))}
                         </div>
                       </div>
                     </div>
