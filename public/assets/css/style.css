@@ -2026,6 +2026,9 @@ hr {
 }
 
 .menu-social-links {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
 	margin-left: 130px;
 	text-align: left;
 	position: relative;
