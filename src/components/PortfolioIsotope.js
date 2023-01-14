@@ -91,7 +91,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
           </a>
         </div>
         <div className="works-items works-masonry-items row">
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-python sorting-flask sorting-react ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-python sorting-javascript sorting-flask sorting-react ">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
@@ -128,7 +128,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
               />
             </div>
           </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-python ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-python sorting-javascript sorting-flask sorting-react">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
@@ -165,7 +165,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
               />
             </div>
           </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-react sorting-python ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-react sorting-express sorting-javascript ">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
