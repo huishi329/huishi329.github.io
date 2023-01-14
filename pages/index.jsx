@@ -58,14 +58,14 @@ const Index = () => {
                     </p>
                   </div>
                   <div className="social-links">
-                    <a target="_blank" rel="nofollow" href="#">
-                      <i aria-hidden="true" className="fab fa-twitter" />
+                    <a target="_blank" rel="nofollow" href="https://www.linkedin.com/in/huishi-an-8397311b1/">
+                      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?logo=linkedin&logoColor=fff&style=for-the-badge" alt="linkedin"></img>
                     </a>
-                    <a target="_blank" rel="nofollow" href="#">
-                      <i aria-hidden="true" className="fab fa-dribbble" />
+                    <a target="_blank" rel="nofollow" href="https://github.com/huishi329">
+                      <img src="https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=fff&style=for-the-badge" alt="github"></img>
                     </a>
-                    <a target="_blank" rel="nofollow" href="#">
-                      <i aria-hidden="true" className="fab fa-behance" />
+                    <a target="_blank" rel="nofollow" href="mailto:anhuishi95@gmail.com">
+                      <img src="https://img.shields.io/badge/Gmail-EA4335?logo=gmail&logoColor=fff&style=for-the-badge" alt="gmail"></img>
                     </a>
                   </div>
                 </div>
@@ -325,7 +325,7 @@ const Index = () => {
               >
                 <span>
                   {" "}
-                  my <b>Cases</b>
+                  my <b>Projects</b>
                 </span>
               </div>
             </div>
@@ -344,169 +344,6 @@ const Index = () => {
 
       {/* Section - Resume */}
       <Resume />
-      {/* Section - Contacts */}
-      <section className="lui-section lui-gradient-center" id="contact-section">
-        {/* Heading */}
-        <div className="lui-heading">
-          <div className="container">
-            <div className="m-titles align-center">
-              <h2
-                className="m-title splitting-text-anim-1 scroll-animate"
-                data-splitting="words"
-                data-animate="active"
-              >
-                <span> Contact Me </span>
-              </h2>
-              <div
-                className="m-subtitle splitting-text-anim-1 scroll-animate"
-                data-splitting="words"
-                data-animate="active"
-              >
-                <span>
-                  {" "}
-                  Let’s <b>Talk About Ideas</b>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Contact */}
-        <div className="lui-contacts v-line v-line-left">
-          <div className="container">
-            <div className="row">
-              <div className="col-xs-12 col-sm-12 col-md-5 col-lg-5">
-                <div className="numbers-items">
-                  <div
-                    className="numbers-item scrolla-element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <div className="icon">
-                      <i aria-hidden="true" className="far fa-map" />
-                    </div>
-                    <div className="title">
-                      <span> Address </span>
-                    </div>
-                    <div className="lui-text">
-                      <span> North Tower, Toronto, Canada </span>
-                    </div>
-                  </div>
-                  <div
-                    className="numbers-item scrolla-element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <div className="icon">
-                      <i aria-hidden="true" className="far fa-user" />
-                    </div>
-                    <div className="title">
-                      <span> Freelance </span>
-                    </div>
-                    <div className="lui-text">
-                      <span> Available Right Now </span>
-                    </div>
-                  </div>
-                  <div
-                    className="numbers-item scrolla-element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <div className="icon">
-                      <i aria-hidden="true" className="far fa-envelope" />
-                    </div>
-                    <div className="title">
-                      <span> Email </span>
-                    </div>
-                    <div className="lui-text">
-                      <span> zoe.miller@mydomain.com </span>
-                    </div>
-                  </div>
-                  <div
-                    className="numbers-item scrolla-element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <div className="icon">
-                      <i aria-hidden="true" className="far fa-address-book" />
-                    </div>
-                    <div className="title">
-                      <span> Phone </span>
-                    </div>
-                    <div className="lui-text">
-                      <span> +1 900 - 900 - 9000 </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-12 col-md-7 col-lg-7">
-                <div
-                  className="contacts-form scrolla-element-anim-1 scroll-animate"
-                  data-animate="active"
-                >
-                  <div
-                    className="bg-img"
-                    style={{
-                      backgroundImage: "url(assets/images/pat-1.png)",
-                    }}
-                  />
-                  <div className="contacts-form">
-                    <form onSubmit={(e) => e.preventDefault()} id="cform">
-                      <div className="row">
-                        <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                          <div className="group">
-                            <label>
-                              Your Full Name <b>*</b>
-                              <input type="text" name="name" />
-                            </label>
-                          </div>
-                        </div>
-                        <div className="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                          <div className="group">
-                            <label>
-                              Your Email Address <b>*</b>
-                              <input type="email" name="email" />
-                            </label>
-                          </div>
-                        </div>
-                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                          <div className="group">
-                            <label>
-                              Your Subject <b>*</b>
-                              <input type="text" name="subject" />
-                            </label>
-                          </div>
-                        </div>
-                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                          <div className="group">
-                            <label>
-                              Your Message <b>*</b>
-                              <textarea name="message" defaultValue={""} />
-                            </label>
-                          </div>
-                        </div>
-                        <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 align-right">
-                          <div className="terms-label">
-                            * Accept the terms and conditions.
-                          </div>
-                          <a
-                            href="#"
-                            className="btn"
-                            onclick="$('#cform').submit(); return false;"
-                          >
-                            <span>Send Message</span>
-                          </a>
-                        </div>
-                      </div>
-                    </form>
-                    <div className="alert-success" style={{ display: "none" }}>
-                      <p>Thanks, your message is sent successfully.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="lui-bgtitle">
-              <span> Contact Me </span>
-            </div>
-          </div>
-        </div>
-      </section>
     </Layout>
   );
 };
