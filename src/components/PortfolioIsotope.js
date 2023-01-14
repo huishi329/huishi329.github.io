@@ -109,13 +109,13 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Python, Flask, React.js </span>
+                <span className="category"> Python, Flask, Javascript, React.js </span>
                 <h5 className="name">
                   <a href='https://plendar.herokuapp.com/' >Plendar</a>
                 </h5>
                 <div className="text">
                   <p>
-                    A light-weight Google calendar clone built with Flask & PostgreSQL backend and React frontend
+                    A light-weight Google calendar clone built with Flask & PostgreSQL backend and React.js frontend
                   </p>
                 </div>
                 <a href='https://github.com/huishi329/Plendar' className="lnk">See project repo</a>
@@ -146,13 +146,13 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Python, Flask, React.js </span>
+                <span className="category"> Python, Flask, Javascript, React.js </span>
                 <h5 className="name">
                   <a href="https://ducksy.herokuapp.com/">Ducksy</a>
                 </h5>
                 <div className="text">
                   <p>
-                    An Etsy clone built with Flask & PostgreSQL backend and React frontend in a group of 3
+                    An Etsy clone built with Flask & PostgreSQL backend and React.js frontend in a group of 3
                   </p>
                 </div>
                 <a className="lnk" href="https://github.com/MattKleinsmith/ducksy">See project repo</a>
@@ -183,13 +183,13 @@ const PortfolioIsotope = ({ noViewMore }) => {
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Javascript, Express, React.js </span>
+                <span className="category"> Javascript, Express.js, React.js </span>
                 <h5 className="name">
                   <a href="https://eeveenvee.herokuapp.com/">EveeNvee</a>
                 </h5>
                 <div className="text">
                   <p>
-                    My first fullstack clone of airbnb built with express & PostgreSQL backend and React frontend
+                    My first fullstack clone of airbnb built with Express.js & PostgreSQL backend and React.js frontend
                   </p>
                 </div>
                 <a className="lnk" href="https://github.com/huishi329/EeveeNvee">See project repo</a>
