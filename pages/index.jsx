@@ -169,13 +169,12 @@ const Index = () => {
                     data-animate="active"
                   >
                     <h6 className="name">
-                      <span> Python </span>
+                      <span> <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge" alt="python"></img></span>
                     </h6>
                     <div className="text">
                       <div>
-                        <p>
-                          Flask, SQLAlchemy, Alembic
-                        </p>
+                        <img src="https://img.shields.io/badge/Flask-000?logo=flask&logoColor=fff&style=for-the-badge" alt="flask"></img>
+                        <img src="https://img.shields.io/badge/sqlalchemy-424242?style=for-the-badge&logo=academia&logoColor=d71f00" alt="sqlalchemy"></img>
                       </div>
                     </div>
                     <div className="dots">
@@ -193,7 +192,52 @@ const Index = () => {
                     </h6>
                     <div className="text">
                       <div>
+                        <img alt="sqlite" src="https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=fff&style=for-the-badge"></img>
+                        <img alt="postgresql" src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=fff&style=for-the-badge"></img>
+                      </div>
+                    </div>
+                    <div className="dots">
+                      <div className="dot" style={{ width: "100%" }}>
+                        <span />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                <div className="skills-items">
+                  <div
+                    className="skills-item scrolla-element-anim-1 scroll-animate"
+                    data-animate="active"
+                  >
+                    <h6 className="name">
+                      <span> <img alt="javscript" src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000&style=for-the-badge"></img></span>
+                    </h6>
+                    <div className="text">
+                      <div>
+                        <img alt="node.js" src="https://img.shields.io/badge/Node.js-393?logo=nodedotjs&logoColor=fff&style=for-the-badge"></img>
+                        <img alt="express" src="https://img.shields.io/badge/Express-000?logo=express&logoColor=fff&style=for-the-badge"></img>
+                        <img alt="sequelize" src="https://img.shields.io/badge/Sequelize-52B0E7?logo=sequelize&logoColor=fff&style=for-the-badge"></img>
+                        {/* Node.js, Express.js, Sequelize */}
+                      </div>
+                    </div>
+                    <div className="dots">
+                      <div className="dot" style={{ width: "100%" }}>
+                        <span />
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    className="skills-item scrolla-element-anim-1 scroll-animate"
+                    data-animate="active"
+                  >
+                    <h6 className="name">
+                      <span> <img alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=fff&style=for-the-badge"></img> </span>
+                    </h6>
+                    <div className="text">
+                      <div>
                         <p>
+                          Semantic HTML, accessibility
                         </p>
                       </div>
                     </div>
@@ -212,13 +256,12 @@ const Index = () => {
                     data-animate="active"
                   >
                     <h6 className="name">
-                      <span> JavaScript </span>
+                      <span> <img alt="react" src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=000&style=for-the-badge"></img></span>
                     </h6>
                     <div className="text">
                       <div>
-                        <p>
-                          Node.js, Express.js, Sequelize
-                        </p>
+                        <img alt="redux" src="https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=fff&style=for-the-badge"></img>
+                        <img alt="react-router" src="https://img.shields.io/badge/React%20Router-CA4245?logo=reactrouter&logoColor=fff&style=for-the-badge"></img>
                       </div>
                     </div>
                     <div className="dots">
@@ -232,54 +275,12 @@ const Index = () => {
                     data-animate="active"
                   >
                     <h6 className="name">
-                      <span> HTML </span>
+                      <span> <img alt="css3" src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=fff&style=for-the-badge"></img> </span>
                     </h6>
                     <div className="text">
                       <div>
                         <p>
-                        </p>
-                      </div>
-                    </div>
-                    <div className="dots">
-                      <div className="dot" style={{ width: "100%" }}>
-                        <span />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                <div className="skills-items">
-                  <div
-                    className="skills-item scrolla-element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <h6 className="name">
-                      <span> React </span>
-                    </h6>
-                    <div className="text">
-                      <div>
-                        <p>
-                          Redux.js
-                        </p>
-                      </div>
-                    </div>
-                    <div className="dots">
-                      <div className="dot" style={{ width: "100%" }}>
-                        <span />
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="skills-item scrolla-element-anim-1 scroll-animate"
-                    data-animate="active"
-                  >
-                    <h6 className="name">
-                      <span> CSS </span>
-                    </h6>
-                    <div className="text">
-                      <div>
-                        <p>
+                          Flexbox, grid, animation...
                         </p>
                       </div>
                     </div>
