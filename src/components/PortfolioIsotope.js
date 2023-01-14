@@ -48,75 +48,77 @@ const PortfolioIsotope = ({ noViewMore }) => {
           </a>
           <a
             className={`c-pointer lui-subtitle ${activeBtn(
-              "sorting-ui-ux-design"
+              "sorting-python"
             )}`}
-            onClick={handleFilterKeyChange("sorting-ui-ux-design")}
-            data-href=".sorting-ui-ux-design"
+            onClick={handleFilterKeyChange("sorting-python")}
+            data-href=".sorting-python"
           >
-            UI UX Design
+            Python
           </a>
           <a
-            className={`c-pointer lui-subtitle ${activeBtn("sorting-photo")}`}
-            onClick={handleFilterKeyChange("sorting-photo")}
+            className={`c-pointer lui-subtitle ${activeBtn("sorting-javascript")}`}
+            onClick={handleFilterKeyChange("sorting-javascript")}
             data-href=".sorting-photo"
           >
-            Photography
+            Javascript
           </a>
           <a
             className={`c-pointer lui-subtitle ${activeBtn(
-              "sorting-development"
+              "sorting-react"
             )}`}
-            onClick={handleFilterKeyChange("sorting-development")}
-            data-href=".sorting-development"
+            onClick={handleFilterKeyChange("sorting-react")}
+            data-href=".sorting-react"
           >
-            Development
+            React.js
           </a>
           <a
             className={`c-pointer lui-subtitle ${activeBtn(
-              "sorting-branding"
+              "sorting-flask"
             )}`}
-            onClick={handleFilterKeyChange("sorting-branding")}
-            data-href=".sorting-branding"
+            onClick={handleFilterKeyChange("sorting-flask")}
+            data-href=".sorting-flask"
           >
-            Branding
+            Flask
+          </a>
+          <a
+            className={`c-pointer lui-subtitle ${activeBtn(
+              "sorting-express"
+            )}`}
+            onClick={handleFilterKeyChange("sorting-express")}
+            data-href=".sorting-express"
+          >
+            Express.js
           </a>
         </div>
         <div className="works-items works-masonry-items row">
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-python sorting-flask sorting-react ">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
-                    <a>
-                      <img
-                        decoding="async"
-                        src="assets/images/work4.jpeg"
-                        alt="Zorro"
-                      />
-                      <span className="overlay" />
-                    </a>
-                  </Link>
+                  <a href='https://plendar.herokuapp.com/'>
+                    <img
+                      decoding="async"
+                      src="assets/images/plendar.png"
+                      alt="Plendar"
+                    />
+                    <span className="overlay" />
+                  </a>
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Branding, Photography </span>
+                <span className="category"> Python, Flask, React.js </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Zorro</a>
-                  </Link>
+                  <a href='https://plendar.herokuapp.com/' >Plendar</a>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                    A light-weight Google calendar clone built with Flask & PostgreSQL backend and React frontend
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
-                  <a className="lnk">See project</a>
-                </Link>
+                <a href='https://github.com/huishi329/Plendar' className="lnk">See project repo</a>
               </div>
               <div
                 className="bg-img"
@@ -126,41 +128,34 @@ const PortfolioIsotope = ({ noViewMore }) => {
               />
             </div>
           </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-ui-ux-design ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-python ">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
-                    <a>
-                      <img
-                        decoding="async"
-                        src="assets/images/work2.jpeg"
-                        alt="Gooir"
-                      />
-                      <span className="overlay" />
-                    </a>
-                  </Link>
+                  <a href="https://ducksy.herokuapp.com/">
+                    <img
+                      decoding="async"
+                      src="assets/images/ducksy.png"
+                      alt="ducksy"
+                    />
+                    <span className="overlay" />
+                  </a>
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Branding, UI UX Design </span>
+                <span className="category"> Python, Flask, React.js </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Gooir</a>
-                  </Link>
+                  <a href="https://ducksy.herokuapp.com/">Ducksy</a>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                    An Etsy clone built with Flask & PostgreSQL backend and React frontend in a group of 3
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
-                  <a className="lnk">See project</a>
-                </Link>
+                <a className="lnk" href="https://github.com/MattKleinsmith/ducksy">See project repo</a>
               </div>
               <div
                 className="bg-img"
@@ -170,173 +165,34 @@ const PortfolioIsotope = ({ noViewMore }) => {
               />
             </div>
           </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-ui-ux-design ">
+          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-react sorting-python ">
             <div
               className="works-item scrolla-element-anim-1 scroll-animate"
               data-animate="active"
             >
               <div className="image">
                 <div className="img">
-                  <Link legacyBehavior href="/work-single">
-                    <a>
-                      <img
-                        decoding="async"
-                        src="assets/images/work7.jpg"
-                        alt="Explore"
-                      />
-                      <span className="overlay" />
-                    </a>
-                  </Link>
+                  <a href="https://eeveenvee.herokuapp.com/">
+                    <img
+                      decoding="async"
+                      src="assets/images/eeveenvee.png"
+                      alt="eeveenvee"
+                    />
+                    <span className="overlay" />
+                  </a>
                 </div>
               </div>
               <div className="desc">
-                <span className="category"> Development, UI UX Design </span>
+                <span className="category"> Javascript, Express, React.js </span>
                 <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Explore</a>
-                  </Link>
+                  <a href="https://eeveenvee.herokuapp.com/">EveeNvee</a>
                 </h5>
                 <div className="text">
                   <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
+                    My first fullstack clone of airbnb built with express & PostgreSQL backend and React frontend
                   </p>
                 </div>
-                <Link legacyBehavior href="/work-single">
-                  <a className="lnk">See project</a>
-                </Link>
-              </div>
-              <div
-                className="bg-img"
-                style={{
-                  backgroundImage: "url(assets/images/pat-2.png)",
-                }}
-              />
-            </div>
-          </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-branding sorting-photo ">
-            <div
-              className="works-item scrolla-element-anim-1 scroll-animate"
-              data-animate="active"
-            >
-              <div className="image">
-                <div className="img">
-                  <Link legacyBehavior href="/work-single">
-                    <a>
-                      <img
-                        decoding="async"
-                        src="assets/images/work1.jpeg"
-                        alt="Mozar"
-                      />
-                      <span className="overlay" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-              <div className="desc">
-                <span className="category"> Branding, Photography </span>
-                <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Mozar</a>
-                  </Link>
-                </h5>
-                <div className="text">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                  </p>
-                </div>
-                <Link legacyBehavior href="/work-single">
-                  <a className="lnk">See project</a>
-                </Link>
-              </div>
-              <div
-                className="bg-img"
-                style={{
-                  backgroundImage: "url(assets/images/pat-2.png)",
-                }}
-              />
-            </div>
-          </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-ui-ux-design ">
-            <div
-              className="works-item scrolla-element-anim-1 scroll-animate"
-              data-animate="active"
-            >
-              <div className="image">
-                <div className="img">
-                  <Link legacyBehavior href="/work-single">
-                    <a>
-                      <img
-                        decoding="async"
-                        src="assets/images/single8.jpg"
-                        alt="Stay Fit"
-                      />
-                      <span className="overlay" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-              <div className="desc">
-                <span className="category"> Development, UI UX Design </span>
-                <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Stay Fit</a>
-                  </Link>
-                </h5>
-                <div className="text">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                  </p>
-                </div>
-                <Link legacyBehavior href="/work-single">
-                  <a className="lnk">See project</a>
-                </Link>
-              </div>
-              <div
-                className="bg-img"
-                style={{
-                  backgroundImage: "url(assets/images/pat-2.png)",
-                }}
-              />
-            </div>
-          </div>
-          <div className="works-col col-xs-12 col-sm-12 col-md-12 col-lg-12 sorting-development sorting-photo ">
-            <div
-              className="works-item scrolla-element-anim-1 scroll-animate"
-              data-animate="active"
-            >
-              <div className="image">
-                <div className="img">
-                  <Link legacyBehavior href="/work-single">
-                    <a>
-                      <img
-                        decoding="async"
-                        src="assets/images/single6.jpg"
-                        alt="Kana"
-                      />
-                      <span className="overlay" />
-                    </a>
-                  </Link>
-                </div>
-              </div>
-              <div className="desc">
-                <span className="category"> Development, Photography </span>
-                <h5 className="name">
-                  <Link legacyBehavior href="/work-single">
-                    <a>Kana</a>
-                  </Link>
-                </h5>
-                <div className="text">
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore.
-                  </p>
-                </div>
-                <Link legacyBehavior href="/work-single">
-                  <a className="lnk">See project</a>
-                </Link>
+                <a className="lnk" href="https://github.com/huishi329/EeveeNvee">See project repo</a>
               </div>
               <div
                 className="bg-img"
@@ -347,7 +203,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
             </div>
           </div>
         </div>
-        {!noViewMore && (
+        {/* {!noViewMore && (
           <div className="load-more-link">
             <Link legacyBehavior href="/works">
               <a
@@ -358,7 +214,7 @@ const PortfolioIsotope = ({ noViewMore }) => {
               </a>
             </Link>
           </div>
-        )}
+        )} */}
       </div>
     </Fragment>
   );
