@@ -104,11 +104,6 @@ const Resume = () => {
                           educationToggle == education.id ? null : education.id
                         )
                       }
-                      onClick={() =>
-                        setEducationToggle(
-                          educationToggle == education.id ? null : education.id
-                        )
-                      }
                     >
                       <span> {education.academy} </span>
                     </h6>
@@ -151,10 +146,6 @@ const Resume = () => {
                       className={`name lui-collapse-btn ${experienceToggle == experience.id ? " active" : ""
                         }`}
                       onMouseEnter={() =>
-                        setExperienceToggle(experienceToggle == experience.id ? null : experience.id
-                        )
-                      }
-                      onClick={() =>
                         setExperienceToggle(experienceToggle == experience.id ? null : experience.id
                         )
                       }
