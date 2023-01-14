@@ -53,7 +53,7 @@ const Index = () => {
                 <div className="description">
                   <div>
                     <p>
-                      From Shenzhen China, living in Vancouver, Canada. I have rich experience in web development,
+                      From Shenzhen, China, currently living in Vancouver, Canada. I have rich experience in web development,
                       especially React.js. I would love to talk with you about anything about coding.
                     </p>
                   </div>
