@@ -49,8 +49,8 @@ const experienceData = [
 ];
 
 const Resume = () => {
-  const [educationToggle, setEducationToggle] = useState(1);
-  const [experienceToggle, setExperienceToggle] = useState(1);
+  const [educationToggle, setEducationToggle] = useState(0);
+  const [experienceToggle, setExperienceToggle] = useState(0);
   return (
     <section className="lui-section lui-gradient-bottom" id="resume-section">
       {/* Heading */}
@@ -99,6 +99,11 @@ const Resume = () => {
                     <h6
                       className={`name lui-collapse-btn ${educationToggle == education.id ? "active" : ""
                         }`}
+                      onMouseEnter={() =>
+                        setEducationToggle(
+                          educationToggle == education.id ? null : education.id
+                        )
+                      }
                       onClick={() =>
                         setEducationToggle(
                           educationToggle == education.id ? null : education.id
@@ -145,7 +150,14 @@ const Resume = () => {
                     <h6
                       className={`name lui-collapse-btn ${experienceToggle == experience.id ? " active" : ""
                         }`}
-                      onClick={() => setExperienceToggle(experience.id)}
+                      onMouseEnter={() =>
+                        setExperienceToggle(experienceToggle == experience.id ? null : experience.id
+                        )
+                      }
+                      onClick={() =>
+                        setExperienceToggle(experienceToggle == experience.id ? null : experience.id
+                        )
+                      }
                     >
                       <span> {experience.title} </span>
                     </h6>
@@ -166,7 +178,7 @@ const Resume = () => {
                       </div>
                       <div className="text">
                         <div>
-                          {experience.decs.map(dec => (<p>- {dec}</p>))}
+                          {experience.decs.map((dec, i) => (<p key={i}>- {dec}</p>))}
                         </div>
                       </div>
                     </div>
