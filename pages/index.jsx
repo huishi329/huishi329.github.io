@@ -66,7 +66,7 @@ const Index = () => {
                 <div className="bts">
                   <a
                     target="_blank"
-                    href="https://drive.google.com/"
+                    href="https://huishi.s3.us-west-2.amazonaws.com/Huishi+Resume.pdf"
                     className="btn"
                   >
                     <span>Download CV</span>
