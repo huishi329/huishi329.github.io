@@ -107,7 +107,7 @@ const Header = () => {
                               <a
                                 className="splitting-text-anim-2"
                                 data-splitting="chars"
-                                href="/#skills-section"
+                                href="#skills-section"
                                 onClick={() => linkClick()}
                               >
                                 Skills
@@ -117,7 +117,7 @@ const Header = () => {
                               <a
                                 className="splitting-text-anim-2"
                                 data-splitting="chars"
-                                href="/#works-section"
+                                href="#works-section"
                                 onClick={() => linkClick()}
                               >
                                 Projects
@@ -127,7 +127,7 @@ const Header = () => {
                               <a
                                 className="splitting-text-anim-2"
                                 data-splitting="chars"
-                                href="/#resume-section"
+                                href="#resume-section"
                                 onClick={() => linkClick()}
                               >
                                 Resume
