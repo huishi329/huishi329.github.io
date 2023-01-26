@@ -98,6 +98,8 @@ const Header = () => {
                                 <a
                                   className="splitting-text-anim-2"
                                   data-splitting="chars"
+                                  href="/"
+                                  onClick={() => linkClick()}
                                 >
                                   Home
                                 </a>
